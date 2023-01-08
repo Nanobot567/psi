@@ -1,0 +1,9 @@
+~~ shows playdate system info for 5 seconds then returns to launcher
+run /System/Settings.pdx
+wait 1.6
+*8 btn down
+btn a
+wait 0.25
+btn a
+wait 5
+run /System/Launcher.pdx
